@@ -1,4 +1,4 @@
-# Cancer Survival Index Tutorial
+# Cancer Survival Index Tutorial (IN PROGRESS)
 
 This repository contains the simulated data and R code used in the tutorial:
 
