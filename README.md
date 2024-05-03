@@ -2,7 +2,7 @@
 
 Main reference:
 
-> Quaresma, M., Rubio, F. J., & Rachet, B. (2024). An index of cancer survival to measure progress in cancer control: A tutorial. Cancer Epidemiology, 90, 102576.. https://doi.org/10.1016/j.canep.2024.102576
+> Quaresma, M., Rubio, F. J., & Rachet, B. (2024). An index of cancer survival to measure progress in cancer control: A tutorial. Cancer Epidemiology, 90, 102576. https://doi.org/10.1016/j.canep.2024.102576
 
 
 # File description
