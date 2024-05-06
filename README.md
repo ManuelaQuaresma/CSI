@@ -29,11 +29,11 @@ The **Replica** dataset structure:
   | ... | ... | ... | ... | ... | ... | ... | ... |
   | 500,000 | 2 | 73.2 | ovary | 4 | 3.3 | 1 | 0.038503|
 
-2. A set of **'sex-age-cancer' specific weights** (name of dataset: *weights_cancer_age_sex_specific_03052024.txt*). The variables available in this dataset are:
+2. A set of weights by sex, age group and cancer group (name of dataset: *weights_cancer_age_sex_specific_03052024.txt*). The variables available in this dataset are:
   - **sex** (1-men; 2-women)
   - **age group** at diagnosis (1:[15-44], 2:[45-54], 3:[55-64], 4:[65-74], 5:[75-99])
   - **cancer** (17 most common cancer groups: bladder, brain, breast (female), cervix, colon, kidney, leukaemia, lung, melanoma, Non-Hodgkin lymphoma (NHL), oesophagus, ovary, pancreas, prostate, rectum, stomach, uterus, plus one additional group that includes all other cancers)
-  - **weights** (‘sex-age-cancer’ specific weights, with the sum of weights = 1)
+  - **weights** (with the sum of weights = 1)
 
   | sex | age group | cancer | weights | 
   | ---: | ---: | ---: | ---: | 
@@ -41,7 +41,8 @@ The **Replica** dataset structure:
   | 2 | 1 | colon | 0.0010856 | 
   | 1 | 2 | colon | 0.0025053 | 
   | ... | ... | ... | ... | 
-   
+  |  | | | *sum of weights=1* | 
+
 4. R code for the estimation of the indexes' ‘sex-age-cancer’ specific net survival components using the **GJRM** package.
 5. R code to produce trend plots of the estimated index of cancer survival.
 
