@@ -52,5 +52,4 @@ The **Replica** dataset structure:
 2. Place all files and data in the same folder. This folder will be your "Working Directory".
 3. Set the Working Directory. From RStudio, use the menu to change your working directory under Session > Set Working Directory > Choose Directory.
 4. Copy all files and code in your Working Directory.
-5. Run the R code *CSI_R_code_03052024.R*.
-6. Alternatively, to avoid running the code, you can load the *CSI.RData* and proceed directly to producing the trend plots of the estimated index of cancer survival.
+5. Alternatively, to avoid running the code, you can load the *CSI.RData* and proceed directly to producing the trend plots of the estimated index of cancer survival.
