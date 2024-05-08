@@ -52,11 +52,14 @@ The **Replica** dataset structure:
 # Instructions
 
 ## Full analysis (calculation of the index and visualisation)
-1. Download and copy all files and data in the same folder. This folder will be your "Working Directory".
+1. Download and copy the files *CSI_R_code_03052024.R*, *weights_cancer_age_sex_specific_03052024.txt* and *Replica_03052024.txt* in the same folder. This folder will be your "Working Directory".
 2. Open the R code *CSI_R_code_03052024.R* in R or RStudio (we recommend RStudio).
 3. Set the Working Directory. From RStudio, use the menu to change your working directory under Session > Set Working Directory > Choose Directory.
 4. Run the R code *CSI_R_code_03052024.R*. You may need to install all the required R packages. This will calculate the cancer index and produce the trend plots.
 
  ## Visualisation only (trend plots)  
-1. To avoid running the R code, you can load the *cancer_index.RData* file, which contains the cancer index obtained by running the R code *CSI_R_code_03052024.R*.
-2. Run the code *CSI_viz_R_code_03052024.R* to produce the trend plots of the estimated index of cancer survival.
+To avoid running the R code, 
+1. Download and copy the files *CSI_viz_R_code_03052024.R* and *cancer_index.RData* in the same folder. This folder will be your "Working Directory".
+2. Open the R code *CSI_viz_R_code_03052024.R* in R or RStudio (we recommend RStudio).
+3. Set the Working Directory. From RStudio, use the menu to change your working directory under Session > Set Working Directory > Choose Directory. 
+4. Run the code *CSI_viz_R_code_03052024.R* to produce the trend plots of the estimated index of cancer survival.
