@@ -52,14 +52,15 @@ The **Replica** dataset structure:
 # Instructions
 
 ## Full analysis (calculation of the index and visualisation)
-1. Download and copy the files *CSI_R_code_03052024.R*, *weights_cancer_age_sex_specific_03052024.txt* and *Replica_03052024.txt* in the same folder. This folder will be your "Working Directory".
+The complete analysis involves fitting all relevant models (refer to the tutorial for more details), selecting the best models, calculating net survival at the times of interest, and computing the index. Depending on your computer's specifications, these tasks may take over 3 hours.
+1. Download and place the files *CSI_R_code_03052024.R*, *weights_cancer_age_sex_specific_03052024.txt* and *Replica_03052024.txt* in the same folder. This folder will be your "Working Directory".
 2. Open the R code *CSI_R_code_03052024.R* in R or RStudio (we recommend RStudio).
-3. Set the Working Directory. From RStudio, use the menu to change your working directory under Session > Set Working Directory > Choose Directory.
-4. Run the R code *CSI_R_code_03052024.R*. You may need to install all the required R packages. This will calculate the cancer index and produce the trend plots.
+3. Set the Working Directory. In RStudio, navigate to `Session > Set Working Directory > Choose Directory` from the menu. 
+4. Run the R code *CSI_R_code_03052024.R*. You may need to install all the required R packages. This step will compute the cancer index and generate the trend plots of the estimated index of cancer survival.
 
  ## Visualisation only (trend plots)  
-To avoid running the R code, 
-1. Download and copy the files *CSI_viz_R_code_03052024.R* and *cancer_index.RData* in the same folder. This folder will be your "Working Directory".
+To avoid calculating the index from scratch, 
+1. Download and place the files *CSI_viz_R_code_03052024.R* and *cancer_index.RData* in the same folder. This folder will be your "Working Directory".
 2. Open the R code *CSI_viz_R_code_03052024.R* in R or RStudio (we recommend RStudio).
-3. Set the Working Directory. From RStudio, use the menu to change your working directory under Session > Set Working Directory > Choose Directory. 
-4. Run the code *CSI_viz_R_code_03052024.R* to produce the trend plots of the estimated index of cancer survival.
+3. Set the Working Directory. In RStudio, navigate to `Session > Set Working Directory > Choose Directory` from the menu. 
+4. Run the code *CSI_viz_R_code_03052024.R*. This step will generate the trend plots of the estimated index of cancer survival.
