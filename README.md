@@ -57,6 +57,6 @@ The **Replica** dataset structure:
 3. Set the Working Directory. From RStudio, use the menu to change your working directory under Session > Set Working Directory > Choose Directory.
 4. Run the R code *CSI_R_code_03052024.R*. You may need to install all the required R packages. This will calculate the cancer index and produce the trend plots.
 
- ## Only producing the trend plots  
+ ## Visualisation only (trend plots)  
 1. To avoid running the R code, you can load the *cancer_index.RData* file, which contains the cancer index obtained by running the R code *CSI_R_code_03052024.R*.
 2. Run the code *CSI_viz_R_code_03052024.R* to produce the trend plots of the estimated index of cancer survival.
