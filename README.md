@@ -1,4 +1,4 @@
-# Index of cancer survival tutorial (IN PROGRESS)
+# Index of cancer survival tutorial
 
 The index of cancer survival is a single number indicator that summarises the overall patterns of cancer survival for all cancer types combined. The index does not reflect the prospects of survival for any individual cancer patient (or group of patients). It was developed to act as a strategic tool for national surveillance and local monitoring of the effectiveness of cancer services in a given population. 
 
@@ -45,6 +45,9 @@ The **Replica** dataset structure:
 
 4. R code for the estimation of the indexes' ‘sex-age-cancer’ specific net survival components using the **GJRM** package (*CSI_R_code_03052024.R*).
 5. R code to produce trend plots of the estimated index of cancer survival (*CSI_R_code_03052024.R*).
+
+![CSI_trend_plot_03052024](https://github.com/ManuelaQuaresma/CSI/assets/33929387/22db5a84-3e34-481e-8d7a-593554e3a143)
+
 
 # Instructions
 
